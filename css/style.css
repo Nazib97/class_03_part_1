@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: rgb(38, 38, 45);
+    padding: 20px 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+
+}
+.logo{
+    text-align: center;
+}
+.logo a{}
+.logo a img{
+    width: 200px;
+}
+
+nav{}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type:none;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    background-color:#d89127;
+}
+.service-section{
+    padding: 80px 0px;
+    
+
+}
+.column{
+  width: 25%;
+  padding: 10px;
+
+}
+
+.service{
+box-shadow: 0 5px 10px 0 #dcdcdc;
+border-radius: 5px;
+overflow: hidden;
+}
+.service div{
+    padding: 10px 10px 20px;
+}
+.service img{
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+
+}
+.service h2{
+  font-size: 20px;
+  font-weight: 800;
+}
+.service p{
+
+}
+.flex{
+    display: flex;
+}
+.heading{
+text-align: center;
+margin-bottom: 30px;
+}
+.heading h1{
+    font-size:50px ;
+    font-weight: 900;
+    color: rgb(38, 31, 45);
+
+}
+.heading p{
+ font-size: 14px;
+ width: 900px;
+ margin: auto;
+}
+.contact-section{
+background-color: #d89127;
+background-image: url(../images/emily-bernal-v9vII5gV8Lw-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center 70%;
+padding: 200px 0;
+text-align: center;
+background-blend-mode: darken;
+}
+.contact-section p{
+font-size: 30px;
+color: #fff;
+
+}
+.contact-section h1{
+    font-size:50px ;
+    font-weight: 900;
+    color: #fff;
+
+}
